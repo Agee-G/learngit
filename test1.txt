@@ -1,0 +1,24 @@
+ 
+	<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+	<a href="#">栏目3</a> 
+		<ul> 
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+	<a href="#">栏目3->菜单1</a> 
+                <ul> 
+                    <li><a href="#">菜单1->子菜单1</a></li> 
+                    <li><a href="#">菜单1->子菜单2</a></li> 
+                    <li><a href="#">菜单1->子菜单3</a></li> 
+                    <li><a href="#">菜单1->子菜单4</a></li> 
+                </ul> 
+			</li> 
+			<li><a href="#">栏目3->菜单2</a></li> 
+			<li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
+	<a href="#">栏目3->菜单3</a> 
+                <ul> 
+                    <li><a href="#">菜单3->子菜单1</a></li> 
+                    <li><a href="#">菜单3->子菜单2</a></li> 
+                    <li><a href="#">菜单3->子菜单3</a></li> 
+                </ul> 
+			</li> 
+		</ul> 
+  </li> <!--栏目三 -->
